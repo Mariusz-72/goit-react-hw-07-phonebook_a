@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import { addContact } from '../../Redux/Contacts/contacts-operations';
-import { getAllContacts } from '../../Redux/Contacts/contacts-selectors';
+import { addContact } from '../../Redux/Contacts/contactsOperations';
+import { getAllContacts } from '../../Redux/Contacts/contactsSelectors';
 
 import { useSelector, useDispatch } from 'react-redux';
 

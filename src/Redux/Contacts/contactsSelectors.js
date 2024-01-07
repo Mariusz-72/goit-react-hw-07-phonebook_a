@@ -1,4 +1,4 @@
-import { getFilter } from '../../Redux/Filter/filter-selectors';
+import { getFilter } from '../Filter/filterSelectors';
 import { createSelector } from '@reduxjs/toolkit';
 
 export const getAllContacts = store => store.contacts.items;
